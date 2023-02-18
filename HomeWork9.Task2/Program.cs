@@ -17,8 +17,7 @@ namespace HomeWork9.Task2
 
             if (number != 1 && number != 2)
             {
-                Exception myException = new Exception("Нужно ввести число 1 или 2!");
-                throw myException;
+                throw new MyException("Нужно ввести число 1 или 2!");
             }
 
             NumberEntered(number);

@@ -6,7 +6,7 @@ namespace HomeWork9.Task1
     {
         static void Main(string[] args)
         {
-            Exception myException = new Exception("Мое исключение!");
+            MyException myException = new MyException("Мое исключение!");
 
             var exceptionList = new Exception[] { myException, new ArgumentException(), new NotImplementedException(), new ArithmeticException(), new ArgumentOutOfRangeException() };
 
